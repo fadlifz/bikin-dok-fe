@@ -1,0 +1,26 @@
+/*
+    primary color
+*/
+
+:root {
+  --primary: #b6895b;
+  --bg: #010101;
+}
+
+/*
+all selector
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+}
